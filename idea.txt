@@ -1,27 +1,30 @@
 mi-casa-virtual/
 │
 ├── front-end/                             # Todo lo relacionado con el front-end
-│   ├── css/                               # Hojas de estilo CSS
-│   │   └── styles.css                     # Tu hoja de estilos principal
+│   ├── src/ 							    # Recursos como imágenes, modelos 3D, etc.
+│   │   ├── assets/                           
+│   │   │   ├── models/                        # Modelos 3D (.obj, .mtl, etc.)
+│   │   │   │   └── miCasa.obj                 # Modelo de tu casa
+│   │   │   │
+│   │   │   └── textures/                      # Texturas para tus modelos 3D
+│   │   │       └── pared.jpg                  # Textura para una pared
+│   │   ├── css/                           # Hojas de estilo CSS
+│   │   │   └── styles.css                 # Tu hoja de estilos principal
+│   │   │
+│   │   ├── js/                             # Scripts de JavaScript
+│   │   │   ├── controls/                      # Controles para la navegación
+│   │   │   │   └── OrbitControls.js           # Controles de órbita (si los usas)
+│   │   │   │
+│   │   │   ├── loaders/                       # Cargadores para modelos y texturas
+│   │   │   │   └── OBJLoader.js               # Loader para modelos .obj
+│   │   │   │
+│   │   │   ├── app.js
+│   │   │   └── main.js
+│   │   │
+│   │   └── index.html                         # Página principal de la aplicación
 │   │
-│   ├── js/                                # Scripts de JavaScript
-│   │   │
-│   │   ├── controls/                      # Controles para la navegación
-│   │   │   └── OrbitControls.js           # Controles de órbita (si los usas)
-│   │   │
-│   │   ├── loaders/                       # Cargadores para modelos y texturas
-│   │   │   └── OBJLoader.js               # Loader para modelos .obj
-│   │   │
-│   │   └── app.js                         # Tu script principal de Three.js
-│   │
-│   ├── assets/                            # Recursos como imágenes, modelos 3D, etc.
-│   │   ├── models/                        # Modelos 3D (.obj, .mtl, etc.)
-│   │   │   └── miCasa.obj                 # Modelo de tu casa
-│   │   │
-│   │   └── textures/                      # Texturas para tus modelos 3D
-│   │       └── pared.jpg                  # Textura para una pared
-│   │
-│   └── index.html                         # Página principal de la aplicación
+│   ├── packagelock.json
+│   └── package.json
 │
 ├── back-end/                              # Todo lo relacionado con el back-end
 │   ├── src/                               # Código fuente del back-end
@@ -41,6 +44,6 @@ mi-casa-virtual/
 │
 ├── node_modules/                          # Dependencias de Node.js (si es necesario)
 │
-├── package.json                           # Archivo de proyecto para Node.js
+├── idea.txt							   # ESTE ARCHIVO
 ├── .gitignore                             # Archivos y carpetas ignoradas por Git
 └── README.md                              # Documentación del proyecto
