@@ -1,0 +1,48 @@
+mi-casa-virtual/
+│
+├── front-end/                             # Todo lo relacionado con el front-end
+│   ├── css/                               # Hojas de estilo CSS
+│   │   └── styles.css                     # Tu hoja de estilos principal
+│   │
+│   ├── js/                                # Scripts de JavaScript
+│   │   ├── lib/                           # Bibliotecas externas como Three.js
+│   │   │   └── three.min.js               # Biblioteca Three.js
+│   │   │
+│   │   ├── controls/                      # Controles para la navegación
+│   │   │   └── OrbitControls.js           # Controles de órbita (si los usas)
+│   │   │
+│   │   ├── loaders/                       # Cargadores para modelos y texturas
+│   │   │   └── OBJLoader.js               # Loader para modelos .obj
+│   │   │
+│   │   └── app.js                         # Tu script principal de Three.js
+│   │
+│   ├── assets/                            # Recursos como imágenes, modelos 3D, etc.
+│   │   ├── models/                        # Modelos 3D (.obj, .mtl, etc.)
+│   │   │   └── miCasa.obj                 # Modelo de tu casa
+│   │   │
+│   │   └── textures/                      # Texturas para tus modelos 3D
+│   │       └── pared.jpg                  # Textura para una pared
+│   │
+│   └── index.html                         # Página principal de la aplicación
+│
+├── back-end/                              # Todo lo relacionado con el back-end
+│   ├── src/                               # Código fuente del back-end
+│   │   ├── controllers/                   # Controladores para manejar lógica de negocio
+│   │   │   └── houseController.js         # Controlador para la lógica de tu casa
+│   │   │
+│   │   ├── models/                        # Modelos de datos (si estás usando una base de datos)
+│   │   │   └── user.js                    # Modelo de usuario (ejemplo)
+│   │   │
+│   │   ├── routes/                        # Rutas de tu API
+│   │   │   └── houseRoutes.js             # Rutas relacionadas con tu casa
+│   │   │
+│   │   └── utils/                         # Utilidades y funciones de ayuda
+│   │       └── logger.js                  # Función de logging (ejemplo)
+│   │
+│   └── server.js                          # Archivo principal del servidor
+│
+├── node_modules/                          # Dependencias de Node.js (si es necesario)
+│
+├── package.json                           # Archivo de proyecto para Node.js
+├── .gitignore                             # Archivos y carpetas ignoradas por Git
+└── README.md                              # Documentación del proyecto
