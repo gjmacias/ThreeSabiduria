@@ -5,8 +5,6 @@ mi-casa-virtual/
 │   │   └── styles.css                     # Tu hoja de estilos principal
 │   │
 │   ├── js/                                # Scripts de JavaScript
-│   │   ├── lib/                           # Bibliotecas externas como Three.js
-│   │   │   └── three.min.js               # Biblioteca Three.js
 │   │   │
 │   │   ├── controls/                      # Controles para la navegación
 │   │   │   └── OrbitControls.js           # Controles de órbita (si los usas)
